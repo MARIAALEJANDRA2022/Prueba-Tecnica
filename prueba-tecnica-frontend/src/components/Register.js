@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import axios from 'axios';
-import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { validarCrearOActualizarDatos } from './Utils.ts';
 
 function Registro() {
 
@@ -15,20 +14,9 @@ function Registro() {
 
     const handleSubmit = async(e) => {
         e.preventDefault();
-        try {
-            await axios.post('http://localhost:8000/api/registro', {
-                name: name,
-                lastName: lastName,
-                email: email,
-                phone: phone,
-                program: program,
-                status: 'No llamado'
-            });
-            alert('Registro exitoso');
+        const isSuccess = validarCrearOActualizarDatos(name, lastName, email, phone, program);
+        if (isSuccess)
             navigate('/');
-        } catch (error) {
-            alert(error.response.data.message);
-        }
     };
 
     return(
@@ -53,12 +41,12 @@ function Registro() {
                         <div className="card" style={{width: "50%"}}>
                             <div class="card-body">
                                 <div className="mb-3">
-                                    <label className="form-label text-dark">Nombre</label>
-                                    <input type="text" className="form-control" value={name} onChange={(e) => setName(e.target.value)} required />
+                                    <label className="form-label text-dark">Nombres</label>
+                                    <input type="text" className="form-control" value={name} placeholder="Escribir nombres completos" onChange={(e) => setName(e.target.value)} required />
                                 </div>
                                 <div className="mb-3">
-                                    <label className="form-label text-dark">Apellido</label>
-                                    <input type="text" className="form-control" value={lastName} onChange={(e) => setLastName(e.target.value)} required />
+                                    <label className="form-label text-dark">Apellidos</label>
+                                    <input type="text" className="form-control" value={lastName} placeholder="Escribir apellidos completos" onChange={(e) => setLastName(e.target.value)} required />
                                 </div>
                                 <div className="mb-3">
                                     <label className="form-label text-dark">Email</label>
