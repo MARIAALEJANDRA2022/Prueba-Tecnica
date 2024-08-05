@@ -4,6 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 return new class extends Migration
 {
@@ -25,14 +26,18 @@ return new class extends Migration
             [
                 'name' => 'Maria Alejandra',
                 'lastName' => 'Ramirez Montenegro',
-                'email' => 'admin@abcAprender.com',
+                'email' => 'admin@abcaprender.com',
                 'password' => bcrypt('admin'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
             ],
             [
-                'name' => 'David Alejandro',
-                'lastName' => 'Delgado Esparza',
-                'email' => 'gestor@abcAprender.com',
+                'name' => 'Juan Camilo',
+                'lastName' => 'Poloche Garzon',
+                'email' => 'gestor@abcaprender.com',
                 'password' => bcrypt('gestor'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
             ]
         ]);
     }
