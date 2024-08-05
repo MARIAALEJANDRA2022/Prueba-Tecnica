@@ -14,10 +14,11 @@ Para la ejecución del proyecto se debe realizar lo siguiente
    6.1. Para levantar el servidor
    
          * Cambiar a la carpera prueba-tecnica-backend de la siguiente manera cd prueba-tecnica-backend
+         * Ejecutar composer install
          * Ejecutar php artisan migrate
-         * Ejecutar php serve
+         * Ejecutar php artisan serve
    6.2. Para iniciar el frontend
    
          * Cambiar a la carpeta prueba-tecnica-frontend de la siguiente manera cd prueba-tecnica-frontend
          * Ejecutar npm start
-8. De esa manera ya se puede utilizar la aplicación
+9. De esa manera ya se puede utilizar la aplicación
