@@ -4,7 +4,7 @@ Para la ejecución del proyecto se debe realizar lo siguiente
 
 1. En la carpeta xampp, ingresar a htdocs y crear una carpeta
 2. Abrir la carpeta creada, dar click derecho y abrir con open git bash here (puede estar en Mostrar más opciones)
-3. En la carpeta que se creo clonar el repositorio de la siguiente manera git clone https://github.com/MARIAALEJANDRA2022/Prueba-Tecnica.git
+3. Ahora, en la bash clonar el repositorio de la siguiente manera git clone https://github.com/MARIAALEJANDRA2022/Prueba-Tecnica.git
 4. Activar apache y MySQL en xampp
 5. Abrir la carpeta creada en el paso 1 en vsc
 6. Dentro de vsc abrir una terminal para levantar el servidor y otra para iniciar el frontend
