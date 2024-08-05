@@ -6,7 +6,7 @@ Para la ejecución del proyecto se debe realizar lo siguiente
 2. Dar click derecho y abrir con open git bash here (puede estar en Mostrar más opciones)
 3. Ahora, en la bash clonar el repositorio de la siguiente manera git clone https://github.com/MARIAALEJANDRA2022/Prueba-Tecnica.git
 4. Activar apache y MySQL en xampp
-5. Abrir la carpeta creada en el paso 1 en vsc
+5. Abrir la carpeta que se creo al clonar el repositorio
 6. Dentro de vsc abrir una terminal para levantar el servidor y otra para iniciar el frontend
    
    6.1. Para levantar el servidor
