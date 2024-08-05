@@ -19,7 +19,7 @@ class EstudianteControlador extends Controller
         ]);
 
         $estudiante = Estudiante::create($validateData);
-        return response(['estudiante' => $estudiante]);
 
+        return response(['estudiante' => $estudiante]);
     }
 }
