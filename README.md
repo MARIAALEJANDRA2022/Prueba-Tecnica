@@ -2,7 +2,7 @@ Es importante tener instalado xampp, vsc, node js, git y composer
 
 Para la ejecución del proyecto se debe realizar lo siguiente
 
-1. En la carpeta xampp, ingresar a htdocs
+1. En la carpeta xampp (suele estar en Este Equipo, abrir el dispositivo que aparece), ingresar a htdocs
 2. Dar click derecho y abrir con open git bash here (puede estar en Mostrar más opciones)
 3. Ahora, en la bash clonar el repositorio de la siguiente manera
    
