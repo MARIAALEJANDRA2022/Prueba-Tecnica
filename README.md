@@ -20,5 +20,6 @@ Para la ejecución del proyecto se debe realizar lo siguiente
    6.2. Para iniciar el frontend
    
          * Cambiar a la carpeta prueba-tecnica-frontend de la siguiente manera cd prueba-tecnica-frontend
+         * Ejecutar npm install
          * Ejecutar npm start
 9. De esa manera ya se puede utilizar la aplicación
