@@ -25,3 +25,14 @@ Para la ejecución del proyecto se debe realizar lo siguiente
          * Ejecutar npm install
          * Ejecutar npm start
 10. De esa manera ya se puede utilizar la aplicación
+
+Nota: 
+
+Para iniciar sesión usar
+
+   email: admin@abcaprender.com
+   password: admin
+
+o
+   email: gestor@abcaprender.com
+   password: gestor
