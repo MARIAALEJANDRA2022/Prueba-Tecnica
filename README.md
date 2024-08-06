@@ -10,7 +10,7 @@ Para la ejecución del proyecto se debe realizar lo siguiente
 5. Activar apache y MySQL en xampp
 6. En xampp, en la parte de MySQL dar click en admin, en la ventana que se abre hacer click en new y ponerle a la bd equipo_academico
 7. Abrir en vsc la carpeta que se creo al clonar el repositorio
-8. Crear el .env con los datos del archivo .env.example a su mismo nivel
+8. Crear el .env con los datos del archivo .env.example a su mismo nivel, se encuentra en la carpeta prueba-tecnica-backend
 9. Dentro de vsc abrir una terminal para levantar el servidor y otra para iniciar el frontend
    
    9.1. Para levantar el servidor
