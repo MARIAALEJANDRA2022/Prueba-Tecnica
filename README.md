@@ -34,5 +34,6 @@ Para iniciar sesión usar
    password: admin
 
 o
+
    email: gestor@abcaprender.com
    password: gestor
