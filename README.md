@@ -15,7 +15,7 @@ Para la ejecución del proyecto se debe realizar lo siguiente
    
    9.1. Para levantar el servidor
    
-         * Cambiar a la carpera prueba-tecnica-backend de la siguiente manera cd prueba-tecnica-backend
+         * Cambiar a la carpeta prueba-tecnica-backend de la siguiente manera cd prueba-tecnica-backend
          * Ejecutar composer install
          * Ejecutar php artisan migrate
          * Ejecutar php artisan serve
