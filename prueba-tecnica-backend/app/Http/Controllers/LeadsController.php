@@ -110,7 +110,7 @@ class LeadsController extends Controller
 
     public function actualizarDatosPorEmail(Request $request, $email)
     {
-        $estudiante = Leads::where('email', $email)->findOrFail();
+        $estudiante = Leads::where('email', $email)->firstOrFail();
 
         $validateData = $request->validate([
             'name' => 'string|required|max:255',
